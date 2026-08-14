@@ -1,0 +1,31 @@
+# Local credentials and environment configuration
+secrets.h
+secrets.local.h
+.env
+.env.*
+!.env.example
+*.local
+
+# Arduino and PlatformIO build output
+build/
+.arduino/
+.pio/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Optional alert-server runtime data
+tracevault_events.csv
+tools/tracevault_events.csv
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
