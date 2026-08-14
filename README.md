@@ -10,6 +10,52 @@ All access decisions happen locally on the ESP32. Wi-Fi, NTP, and Telegram are
 used only for timestamped security notifications, so loss of connectivity does
 not disable the physical RFID/PIN workflow.
 
+<p align="center">
+  <img src="images/tracevault-final.jpg" alt="TraceVault Lite ESP32 IoT Smart Security Vault" width="850">
+</p>
+
+<p align="center">
+  <strong>TraceVault Lite – ESP32 IoT Smart Security Vault</strong><br>
+  <em>Project visualization / concept render</em>
+</p>
+
+## 📸 Project Visuals
+
+The images below are polished project visualizations / concept renders. They
+illustrate the intended TraceVault Lite design and operating states; they are
+not presented as documentary photographs of the physical finished prototype.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>1. TraceVault Lite</strong><br><br>
+      <img src="images/tracevault-final.jpg" alt="TraceVault Lite armed state concept render" width="100%"><br>
+      <em>TraceVault Lite – armed state</em><br>
+      <sub>Project visualization / concept render</sub>
+    </td>
+    <td align="center" width="50%">
+      <strong>2. Access Granted</strong><br><br>
+      <img src="images/access-granted.jpg" alt="TraceVault Lite access granted concept render" width="100%"><br>
+      <em>Successful RFID + PIN authentication and servo unlock</em><br>
+      <sub>Project visualization / concept render</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>3. Hardware Overview</strong><br><br>
+      <img src="images/hardware-wiring.jpg" alt="TraceVault Lite ESP32 hardware overview concept render" width="100%"><br>
+      <em>ESP32 and main hardware components used in TraceVault Lite</em><br>
+      <sub>Project visualization / concept render</sub>
+    </td>
+    <td align="center" width="50%">
+      <strong>4. Security Lockdown</strong><br><br>
+      <img src="images/lockdown.jpg" alt="TraceVault Lite security lockdown concept render" width="100%"><br>
+      <em>Security lockdown state after repeated failed authentication attempts</em><br>
+      <sub>Project visualization / concept render</sub>
+    </td>
+  </tr>
+</table>
+
 ## Features
 
 - Local RFID + PIN authentication
@@ -193,11 +239,11 @@ files as an optional Flask/CSV experiment. The current firmware does not call
 it; current alerts go directly from the ESP32 to Telegram. Its dependencies are
 listed in [`tools/requirements.txt`](tools/requirements.txt).
 
-## Project media
+## Demo
 
-No project photos or demo files were present in the inspected workspace. The
-[`images`](images) folder contains privacy guidance and suggested filenames for
-future media.
+The project visualizations above show the intended enclosure and system states.
+Real build photographs and a recorded hardware demonstration may be added
+separately in the future.
 
 Demo video coming soon.
 

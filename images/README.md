@@ -1,15 +1,16 @@
 # Project media
 
-No project photos or demo video were present in the working files when this
-repository was prepared. Add privacy-reviewed media here when available.
+This directory contains the polished project visualizations / concept renders
+displayed in the repository README:
 
-Suggested filenames:
+- `tracevault-final.jpg`
+- `access-granted.jpg`
+- `hardware-wiring.jpg`
+- `lockdown.jpg`
 
-- `tracevault-final-build.jpg`
-- `tracevault-wiring.jpg`
-- `tracevault-access-granted.jpg`
-- `tracevault-lockdown.jpg`
-- `tracevault-telegram-alert.jpg`
+These renders illustrate the intended enclosure, hardware, and operating states.
+They are not presented as documentary photographs of the physical finished
+prototype. Real build photographs and a demo video may be added later.
 
 Before committing screenshots, crop or blur Wi-Fi names, Telegram chat details,
 bot tokens, RFID UIDs, PINs, serial output containing credentials, and other
