@@ -63,12 +63,12 @@ action. Unlike the concept renders above, this is a real demonstration of the
 physical project.
 
 <p align="center">
-  <a href="media/tracevault-demo.mp4">
+  <a href="https://cdn.jsdelivr.net/gh/mouhammad-coder/TraceVault-Lite@main/media/tracevault-demo.mp4">
     <img src="images/demo-thumbnail.jpg" alt="Watch the real TraceVault Lite demonstration" width="420">
   </a>
 </p>
 
-▶️ **[Watch the full TraceVault Lite demonstration](media/tracevault-demo.mp4)**
+▶️ **[Watch the full TraceVault Lite demonstration](https://cdn.jsdelivr.net/gh/mouhammad-coder/TraceVault-Lite@main/media/tracevault-demo.mp4)**
 
 The real demonstration shows:
 
