@@ -19,6 +19,31 @@ not disable the physical RFID/PIN workflow.
   <em>Project visualization / concept render</em>
 </p>
 
+## 🎥 Demo Video
+
+Watch the complete TraceVault Lite authentication and security workflow in
+action. Unlike the concept renders below, this is a real demonstration of the
+physical project.
+
+<p align="center">
+  <a href="media/tracevault-demo.mp4">
+    <img src="images/demo-thumbnail.jpg" alt="Watch the real TraceVault Lite demonstration" width="420">
+  </a>
+</p>
+
+▶️ **[Watch the full TraceVault Lite demonstration](media/tracevault-demo.mp4)**
+
+The real demonstration shows:
+
+- Physical system armed and ready for authentication
+- HC-SR04 proximity detection prompting the RFID workflow
+- RFID card scanning followed by keypad PIN entry
+- Successful authentication, green status feedback, and servo-controlled door opening
+- Keypad relocking after access
+- Repeated failed authentication attempts leading to the 30-second lockdown
+- Red security indication and the LCD lockdown countdown
+- TraceVault security notifications arriving in Telegram
+
 ## 📸 Project Visuals
 
 The images below are polished project visualizations / concept renders. They
@@ -241,11 +266,9 @@ listed in [`tools/requirements.txt`](tools/requirements.txt).
 
 ## Demo
 
-The project visualizations above show the intended enclosure and system states.
-Real build photographs and a recorded hardware demonstration may be added
-separately in the future.
-
-Demo video coming soon.
+The real physical-project demonstration is featured in the
+[Demo Video](#-demo-video) section above. The four Project Visuals remain
+clearly labeled concept renders.
 
 ## What I learned
 
